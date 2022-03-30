@@ -15,7 +15,7 @@ body {
 
   color: #fff;
 
-  background-color: #fdac53;
+  background-color: #363945;
 }
 
 header {
@@ -33,7 +33,7 @@ header h1 {
 
   font-weight: 300;
 
-  color: gray;
+  color: white;
 
   margin-bottom: 1rem;
 }
@@ -70,11 +70,11 @@ button {
 }
 
 #new-task-input::placeholder {
-  color: gray;
+  color: white;
 }
 
 #new-task-submit {
-  color: magenta;
+  color: #f5fffa;
 
   font-size: 1.25rem;
 
@@ -112,7 +112,7 @@ main {
 
   font-weight: 300;
 
-  color: gray;
+  color: white;
 
   margin-bottom: 1rem;
 }

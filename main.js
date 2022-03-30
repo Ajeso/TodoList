@@ -5,9 +5,15 @@ window.addEventListener('load', () => {
 	const list_el = document.querySelector("#tasks");
 
 	form.addEventListener('submit', (e) => {
-		e.preventDefault();
+		e.preventDefault();// stops the page from refreshing everytime you submit a form//
 
 		const task = input.value;
+
+
+		if (!task) {
+			alert("please fill in a task");
+			return;
+		}
 
 		const task_el = document.createElement('div');
 		task_el.classList.add('task');
