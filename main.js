@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
 	form.addEventListener('submit', (e) => {
 		e.preventDefault();// stops the page from refreshing everytime you submit a form//
 
-		const task = input.value;
+		const task = input.value.trim();
 
 
 		if (!task) {
